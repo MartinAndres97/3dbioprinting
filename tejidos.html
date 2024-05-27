@@ -1,0 +1,161 @@
+<!doctype html>
+<!-- ejemplo de un conjunto de documentos html con navegación interna 
+- realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta lang="es">
+<title>tejidos</title><!-- Titulo -->
+<link rel="stylesheet" href="estilos2.css"><!-- Insercion de estilos -->
+</head>
+<body>
+ <div class="seccion2"><!-- Insercion de seccion del formato de pagina 2-->
+     <div class="contenedor"><!-- Insercion de contenedor -->
+        <div class="seccion-menu"><!-- Inserta la seccion donde se posicionara el meun menu en la pantalla -->
+            <nav class="menu"><!-- Inserta el menu -->
+                <button class="menu-btn"></button><!--Da al menu la cualidad de boton-->
+                <div class="menu-content"><!-- Inserta los contenidos del menu -->
+                  <ul> 
+                    <li><a href="index.html" target="_self">INICIO</a></li><!-- Inserta el botonde incio -->
+                    <li><a href="componentes.html" target="_self">COMPONENTES</a><!-- Inserta el boton de componentes -->
+                        <ul><li><a href="componentes.html#bioimpresora"target="_self">Bioimpresora 3D</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="componentes.html#biotinta"target="_self">Biotinta</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="componentes.html#bioreactor"target="_self">Bioreactor</a></li><!-- Inserta un punto de inicio en la pagina -->
+                     </ul></li>
+                    <li><a href="tecnicas.html" target="_self">TÉCNICAS</a><!-- Inserta el boton de tecnicas -->
+                        <ul><li><a href="tecnicas.html#inicio"target="_self">Extrusión</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="tecnicas.html#inicio2"target="_self">Inkjet</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="tecnicas.html#inicio3"target="_self">Laser</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="tecnicas.html#inicio4"target="_self">Estereolitografía</a></li><!-- Inserta un punto de inicio en la pagina -->
+                     </ul></li>
+                    <li><a href="tejidos.html" target="_self">TEJIDOS</a><!-- Inserta un suboton -->
+                        <ul><li><a href="tejidos.html#cartilago"target="_self">Cartilago</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="tejidos.html#hueso"target="_self">Hueso</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="tejidos.html#piel"target="_self">Piel</a></li><!-- Inserta un punto de inicio en la pagina -->
+                     </ul></li>
+                    <li><a href="sectores.html" target="_self">SECTORES</a><!-- Inserta un suboton -->
+                        <ul><li><a href="sectores.html#ingenieria"target="_self">Ingeniería</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="sectores.html#trasplantes"target="_self">Trasplantes</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="sectores.html#farmaceutica"target="_self">Farmacéutica</a></li><!-- Inserta un punto de inicio en la pagina -->
+                            <li><a href="sectores.html#cancer"target="_self">Cancer</a></li><!-- Inserta un punto de inicio en la pagina -->
+                     </ul></li>
+                     <li><a href="mapa.html" target="_self">MAPA</a></li><!-- Inserta un suboton -->
+                    <li><a href="referencias.html" target="_self">REFERENCIAS</a></li><!-- Inserta un suboton -->
+                  </ul>
+                </div>
+            </nav>
+        </div>
+      <div class="seccion-izquierdasup"><!-- Insercion de subseccion -->
+        <div class="logo"><!-- Insercion de subseccion con el logo-->
+            <a href="index.html" target="_self"><button class="boton-imagen"></button></a><!-- Insercion de boton -->
+        </div>
+      </div>
+     <div class="seccion-izquierda"><!-- Insercion de subseccion -->
+      <div class="gif-container"><!-- Insercion de subseccion del gif-->
+         <img src="gif/3dgif.gif" alt="GIF animado"><!-- Insercion del gif -->
+       </div>
+        <div class="content"><!-- Insercion de subseccion -->
+            <h2><a href="https://seas.harvard.edu/news/2016/01/novel-4d-printing-method-blossoms-botanical-inspiration" target="_blank">TEJIDOS BIOIMPRESOS</a></h2><!-- titular de mayor tamaño -->
+        </div>
+     </div>
+     <div class="seccion-derechasup"><!-- subseccion -->
+        <nav><!-- menu de navegación o conjunto de botones --> 
+            <div class="dropdown"><!--Insercion de un boton y suboton -->
+                <div class="dropdown-btn"><a href="index.html" target="_self" class="mi-boton">INICIO</a><!-- Insercion de suboton -->
+                </div>
+            </div>
+            <div class="dropdown"><!--Insercion de un boton y suboton -->
+                <div class="dropdown-btn"><a href="componentes.html" target="_self" class="mi-boton">COMPONENTES PRINCIPALES</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="componentes.html#bioimpresora"target="_self">Bioimpresora 3D</a><!-- Insercion de contenido del suboton -->
+                    <a href="componentes.html#biotinta"target="_self">Biotinta</a><!-- Insercion de contenido del suboton -->
+                    <a href="componentes.html#bioreactor"target="_self">Bioreactor</a><!-- Insercion de contenido del suboton -->
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="tecnicas.html" target="_self" class="mi-boton">TÉCNICAS APLICADAS</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="tecnicas.html#inicio"target="_self">Extrusión</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio2" target="_self">Inkjet</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio3" target="_self">Laser</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio4" target="_self">Estereolitografía</a> <!-- Insercion de contenido del suboton -->
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="tejidos.html" target="_self" class="mi-boton">TEJIDOS BIOIMPRESOS</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="tejidos.html#cartilago"target="_self">Cartilago</a><!-- Insercion de contenido del suboton -->
+                    <a href="tejidos.html#hueso" target="_self">Hueso</a><!-- Insercion de contenido del suboton -->
+                    <a href="tejidos.html#piel" target="_self">Piel</a><!-- Insercion de contenido del suboton --> 
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="sectores.html" target="_self" class="mi-boton">SECTORES EN DESARROLLO</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="sectores.html#ingenieria"target="_self">Ingeniería de tejidos</a><!-- Insercion de contenido del suboton -->
+                    <a href="sectores.html#trasplantes" target="_self">Trasplantes</a><!-- Insercion de contenido del suboton -->
+                    <a href="sectores.html#farmaceutica" target="_self">Farmacéutica</a><!-- Insercion de contenido del suboton --> 
+                    <a href="sectores.html#cancer" target="_self">Cancer</a> <!-- Insercion de contenido del suboton -->
+                </div>
+            </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="mapa.html" target="_self" class="mi-boton">MAPA</a><!-- Insercion de suboton -->
+            </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+            <div class="dropdown-btn"><a href="referencias.html" target="_self" class="mi-boton">REFERENCIAS</a><!-- Insercion de contenido del suboton -->
+            </div>
+          </div>
+        </nav>
+     </div>
+    <div class="seccion-derecha"><!-- Insercion de subseccion -->
+        <a name="inicio"></a><!-- crea una marca en un punto de la página -->
+        <a name="cartilago"></a><!-- crea una marca en un punto de la página -->
+        <div class="contenido"><!-- Insercion de subseccion -->
+     <h3>CARTILAGO</h3><!--  titular de segundo nivel o subtítulo -->
+     <br>
+     <a href="https://www.bbc.com/news/uk-wales-60707187" target="_blank"><!-- Insercion de link -->
+      <img src="Imagenes/linkbio.PNG" alt="catilage-tissue" class="imagenpag3"><h5>Scientists at Swansea University will use human cells and plant material to 3D-print ear and nose cartilage.</h5>
+     </a>
+     <br>
+     <h4><p>Según informa el Daily Mail, científicos de la <a href="https://www.bbc.com/news/uk-wales-60707187" target="_blank">Universidad de Swansea</a> están desarrollando una nariz impresa en 3D para aquellos que necesitan trasplantes de nariz artificial. Este proceso ofrece una opción sostenible y personalizable para los pacientes, utilizando materiales vegetales y células humanas para imprimir en 3D cartílago nasal artificial. Este proyecto se lanzó por primera vez en julio de 2021, cuando la fundación de investigación médica The Scar Free Foundation inició un programa de investigación regenerativa de más de £2.5 millones de libras en la Universidad de Swansea. Centrado en el desarrollo de cartílago facial "bioprinted" en 3D, un objetivo clave de este programa fue aliviar la carga física y psicológica de las cicatrices.</p>
+      <a name="hueso"></a> <!-- crea una marca en un punto de la página -->
+      <br>
+     </h4>
+     <h3>HUESO</h3><!--  titular de segundo nivel o subtítulo -->
+     <br>
+     <a href="https://all3dp.com/doctors-3d-print-bone-implants-mid-surgery/" target="_blank"><!-- Insercion de link -->
+      <img src="Imagenes/hueso.jpg" alt="bone-tissue" class="imagenpag3"><h5>Los cirujanos en Australia están investigando el uso de la impresión 3D y la robótica para crear implantes óseos que ayuden a tratar el cáncer. Implantes precisos específicos para cada herida podrían ser impresos durante la operación para reemplazar el hueso canceroso extirpado.</h5>
+     </a>
+     <br>
+     <!-- vínculo insertado dentro del párrafo -->
+     <h4><p>En Australia, una colaboración de 5 años entre el Gobierno Australiano <a href="https://all3dp.com/doctors-3d-print-bone-implants-mid-surgery/" target="_blank">la Universidad RMIT en Melbourne</a>, la Universidad de Tecnología de Sídney, el Hospital St Vincent en Melbourne y la empresa de tecnología médica Stryker tiene como objetivo llevar tecnologías médicas avanzadas al quirófano. La iniciativa, conocida como "Implantes Just-in-Time", aprovecha la impresión 3D y la robótica avanzada para reducir drásticamente los tiempos de espera de los implantes y mejorar el resultado para los pacientes que reciben tratamiento contra el cáncer óseo.
+        <br>Se destinaron alrededor de AU$12 millones en investigación, financiada en parte por Stryker y el Centro de Investigación Cooperativa de Manufactura Innovadora, para desarrollar un proceso quirúrgico que brinde a los cirujanos que tratan el cáncer óseo una gran agilidad en el quirófano.</p>
+        <a name="piel"></a><!-- crea una marca en un punto de la página -->
+        <br>
+     </h4>
+     <h3>PIEL</h3><!--  titular de segundo nivel o subtítulo -->
+     <br>
+     <a href="https://3dprint.com/37654/3d-printed-skin-med-training/" target="_blank"><!-- Insercion de link -->
+      <img src="Imagenes/skin.png" alt="slin-tissue" class="imagenpag3"><h5>3D Printed Skin: New Zealand Designer Streamlines Medical Training in Sutures.</h5>
+     </a>
+     <br>
+     <!-- vínculo insertado dentro del párrafo -->
+     <h4><p>Se destaca que los equivalentes de <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9856167/" target="_blank"> piel bioprintada en tres dimensiones (3D) </a>son el nuevo estándar de oro para modelos alternativos a las pruebas en animales, así como para la curación de heridas de espesor completo. En esta revisión, nos centramos en los avances e innovaciones de la bioimpresión de piel en 3D para la regeneración cutánea, en los últimos cinco años. Después de una breve introducción a la anatomía de la piel, los métodos de bioimpresión en 3D y las características destacadas de los estudios recientes se clasifican como avances en materiales, estructuras y funciones. Discutiremos varias formas de mejorar el potencial clínico de la piel bioimpresa en 3D, con tecnología de impresión de última generación y biomateriales novedosos. Después del avance en el cuello de botella de los estudios actuales, se puede fabricar piel altamente desarrollada, que comprende epidermis estratificada, dermis e hipodermis con vasos sanguíneos, nervios, músculos y anexos cutáneos. Esperamos que esta revisión sirva como punto de partida para futuras investigaciones y aplicaciones clínicas, que nos guiarán hacia nuevos avances para la próxima generación de regeneración cutánea.</p>
+        <br>
+        <a href="#inicio"target="_self"><button class="boton-final">SUBIR A INICIO</button></a><!-- vínculo a la parte superior de la página --></h4>
+     </h4>
+     <div class="seccion-contenido"></div><!-- Insercion de subseccion -->
+     </div>
+     </div>
+     </div>
+     <div class="footer"><!-- Insercion de pie de pagina -->
+        <p>© 2024 by Diego Andres Valderrama.</p>
+     </div>
+    </div>
+</body>
+</html>

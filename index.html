@@ -1,0 +1,142 @@
+<!doctype html>
+<!-- ejemplo de un conjunto de documentos html con navegación interna 
+- realizado por el profesor Carlos Delgado para el curso Gráfica interactiva de la Universidad Nacional de Colombia-->
+<html>
+<head>
+<meta charset="UTF-8">
+<meta lang="es">
+<title>Bioimpresion3D</title><!-- titulo -->
+<link rel="stylesheet" href="estilos2.css"><!-- Insercion de estilos -->
+</head>
+<body>
+ <div class="seccion"><!-- seccion principal-->
+    <div class="contenedor"><!-- contenedor principal -->
+        <audio controls id="audio"><!-- inserta los controles de reproduccion del audio -->
+            <source src="audio/bioaundio.mp3" type="audio/mp3"><!-- Inserta el archivo tipo audio -->
+            Tu navegador no soporta el elemento de audio.
+          </audio>
+    <div class="seccion-menu"><!-- Inserta la seccion donde se posicionara el meun menu en la pantalla -->
+        <nav class="menu"><!-- Inserta el menu -->
+            <button class="menu-btn"></button><!--Da al menu la cualidad de boton-->
+            <div class="menu-content"><!-- Inserta los contenidos del menu -->
+              <ul> 
+                <li><a href="index.html" target="_self">INICIO</a></li><!-- Inserta el botonde incio -->
+                <li><a href="componentes.html" target="_self">COMPONENTES</a><!-- Inserta el boton de componentes -->
+                    <ul><li><a href="componentes.html#bioimpresora"target="_self">Bioimpresora 3D</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="componentes.html#biotinta"target="_self">Biotinta</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="componentes.html#bioreactor"target="_self">Bioreactor</a></li><!-- Inserta un punto de inicio en la pagina -->
+                 </ul></li>
+                <li><a href="tecnicas.html" target="_self">TÉCNICAS</a><!-- Inserta el boton de tecnicas -->
+                    <ul><li><a href="tecnicas.html#inicio"target="_self">Extrusión</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="tecnicas.html#inicio2"target="_self">Inkjet</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="tecnicas.html#inicio3"target="_self">Laser</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="tecnicas.html#inicio4"target="_self">Estereolitografía</a></li><!-- Inserta un punto de inicio en la pagina -->
+                 </ul></li>
+                <li><a href="tejidos.html" target="_self">TEJIDOS</a><!-- Inserta un suboton -->
+                    <ul><li><a href="tejidos.html#cartilago"target="_self">Cartilago</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="tejidos.html#hueso"target="_self">Hueso</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="tejidos.html#piel"target="_self">Piel</a></li><!-- Inserta un punto de inicio en la pagina -->
+                 </ul></li>
+                <li><a href="sectores.html" target="_self">SECTORES</a><!-- Inserta un suboton -->
+                    <ul><li><a href="sectores.html#ingenieria"target="_self">Ingeniería</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="sectores.html#trasplantes"target="_self">Trasplantes</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="sectores.html#farmaceutica"target="_self">Farmacéutica</a></li><!-- Inserta un punto de inicio en la pagina -->
+                        <li><a href="sectores.html#cancer"target="_self">Cancer</a></li><!-- Inserta un punto de inicio en la pagina -->
+                 </ul></li>
+                 <li><a href="mapa.html" target="_self">MAPA</a></li><!-- Inserta un suboton -->
+                <li><a href="referencias.html" target="_self">REFERENCIAS</a></li><!-- Inserta un suboton -->
+              </ul>
+            </div>
+        </nav>
+    </div>   
+    <div class="seccion-izquierdasup"><!-- seccion izquierda -->
+        <div class="logo"><!-- insertar logo -->
+            <a href="index.html" target="_self"><button class="boton-imagen"></button></a><!-- envia al inicio -->
+        </div>
+    </div>
+    <div class="seccion-izquierdainf"><!-- seccion inzquierda -->
+        <div class="content"><!-- contenedor de la seccion -->
+            <h1><a href="https://www.youtube.com/watch?v=uHbn7wLN_3k&t=11s" target="_blank">BIOIMPRESIÓN 3D</a></h1><!-- titular de mayor tamaño y link a un video de un pagina externa -->
+            <video id="video" controls><!-- Inserta los controles de reproduccion del video -->
+                <source src="videos/3dBioprinting.mp4" type="video/mp4"><!-- Ingresa el archivo del video -->
+                Your browser does not support the video tag.
+              </video>
+        </div>
+    </div>
+    <div class="seccion-derechasup"><!-- subseccion -->
+        <nav><!-- menu de navegación o conjunto de botones --> 
+            <div class="dropdown"><!--Insercion de un boton y suboton -->
+                <div class="dropdown-btn"><a href="index.html" target="_self" class="mi-boton">INICIO</a><!-- Insercion de suboton -->
+                </div>
+            </div>
+            <div class="dropdown"><!--Insercion de un boton y suboton -->
+                <div class="dropdown-btn"><a href="componentes.html" target="_self" class="mi-boton">COMPONENTES PRINCIPALES</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="componentes.html#bioimpresora"target="_self">Bioimpresora 3D</a><!-- Insercion de contenido del suboton -->
+                    <a href="componentes.html#biotinta"target="_self">Biotinta</a><!-- Insercion de contenido del suboton -->
+                    <a href="componentes.html#bioreactor"target="_self">Bioreactor</a><!-- Insercion de contenido del suboton -->
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="tecnicas.html" target="_self" class="mi-boton">TÉCNICAS APLICADAS</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="tecnicas.html#inicio"target="_self">Extrusión</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio2" target="_self">Inkjet</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio3" target="_self">Laser</a><!-- Insercion de contenido del suboton -->
+                    <a href="tecnicas.html#inicio4" target="_self">Estereolitografía</a> <!-- Insercion de contenido del suboton -->
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="tejidos.html" target="_self" class="mi-boton">TEJIDOS BIOIMPRESOS</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="tejidos.html#cartilago"target="_self">Cartilago</a><!-- Insercion de contenido del suboton -->
+                    <a href="tejidos.html#hueso" target="_self">Hueso</a><!-- Insercion de contenido del suboton -->
+                    <a href="tejidos.html#piel" target="_self">Piel</a><!-- Insercion de contenido del suboton --> 
+                </div>
+                </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="sectores.html" target="_self" class="mi-boton">SECTORES EN DESARROLLO</a><!-- Insercion de suboton -->
+                <div class="dropdown-content"><!-- Insercion de suboton -->
+                    <a href="sectores.html#ingenieria"target="_self">Ingeniería de tejidos</a><!-- Insercion de contenido del suboton -->
+                    <a href="sectores.html#trasplantes" target="_self">Trasplantes</a><!-- Insercion de contenido del suboton -->
+                    <a href="sectores.html#farmaceutica" target="_self">Farmacéutica</a><!-- Insercion de contenido del suboton --> 
+                    <a href="sectores.html#cancer" target="_self">Cancer</a> <!-- Insercion de contenido del suboton -->
+                </div>
+            </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+                <div class="dropdown-btn"><a href="mapa.html" target="_self" class="mi-boton">MAPA</a><!-- Insercion de suboton -->
+            </div>
+            </div>
+            <div class="dropdown"><!-- Insercion de suboton -->
+            <div class="dropdown-btn"><a href="referencias.html" target="_self" class="mi-boton">REFERENCIAS</a><!-- Insercion de contenido del suboton -->
+            </div>
+          </div>
+        </nav>
+     </div>
+     
+
+
+    <div class="seccion-derechainf"><!-- seccion derecha -->
+        <div class="seccion-definicion"><!-- definicion -->
+            <div class="definicion"><!-- texto de definicion -->
+                <h4>
+                <p class="desplazar">La bioimpresión es un campo emergente en la medicina regenerativa. Producir estructuras tridimensionales cargadas de células para imitar tejidos corporales tiene un papel importante no solo en la ingeniería de tejidos, sino también en la administración de fármacos y los estudios sobre el cáncer. La bioimpresión puede proporcionar geometría espacial específica para cada paciente, microestructuras controladas y la colocación de diferentes tipos celulares para la fabricación de andamios de ingeniería de tejidos. Actualmente se estan desarrollando diferentes técnicas de fabricación: bioimpresión basada en láser, basada en extrusión y basada en inyección de tinta.<!-- titular de mayor tamaño -->
+                <br>
+                <br>
+                Existen diversas ventajas y desafíos en cada técnica, así como el estado actual de la investigación hacia diversos tipos de tejidos. Las técnicas basadas en boquillas, como la impresión por inyección de tinta y por extrusión, y las técnicas basadas en láser, como la estereolitografía y la bioimpresión asistida por láser, son capaces de producir andamios bioimpresos exitosos. Estas cuatro técnicas tienen efectos diversos en la viabilidad celular, la resolución y la fidelidad de impresión. Además, se descubrió que la elección de materiales y sus concentraciones también impactaban en las características de impresión. Cada técnica ha demostrado ventajas y desventajas individuales, y la investigación más reciente implica la combinación de múltiples técnicas para aprovechar las ventajas de cada una.</p></h4>   
+                <br>
+            </div>
+            </div>
+    </div>
+    </div> 
+    </div>
+    <div class="footer"><!-- Insercion de un pie de pagina -->
+        <p>© 2024 by Diego Andres Valderrama.</p>
+      </div>
+</div>
+</body>
+</html>
