@@ -11,7 +11,7 @@ body {
 .seccion {
         width: 100vw; /* Ancho de la ventana del navegador */
         height: 100vh; /* Altura de la ventana del navegador */
-        background-image: url("Imagenes/3DBioprinting.jpg");/* Agrega imagen */
+        background-image: url("3DBioprinting.jpg");/* Agrega imagen */
         margin: 0; /* Elimina los márgenes predeterminados del contenedor */
         background-size: cover; /* La imagen cubrirá completamente el área del contenedor */
         background-position: center; /* La imagen se centrará en el contenedor */
@@ -54,7 +54,7 @@ body {
 .boton-imagen {
             width: 27vh; /* Ancho de la imagen del botón */
             height: 9vh; /* Altura de la imagen del boton */
-            background-image: url("Imagenes/logoweb.png"); /* Inserta imagen del boton */
+            background-image: url("logoweb.PNG"); /* Inserta imagen del boton */
             background-size: cover; /* Ajustar la imagen para cubrir el botón */
             background-repeat: no-repeat;
             border: none; /* Sin borde */
@@ -65,7 +65,7 @@ body {
                     position: sticky; /* Establece el posicionamiento fijo */
                     width: 3vw; /* Ancho de la imagen del botón */
                     height: 3vw; /* Altura de la imagen del boton */
-                    background-image: url("Imagenes/menu.PNG"); /* Inserta imagen del boton */
+                    background-image: url("menu.PNG"); /* Inserta imagen del boton */
                     background-size: contain; /* Ajustar la imagen para cubrir el botón */
                     background-color: none;/*  Sin color de fondeo*/
                     padding: 0px 0px;/* Sin relleno */
@@ -323,7 +323,7 @@ body {
      /* PAGINA 2 a la 6*/
 .seccion2 {
        
-        background-image: url("Imagenes/bioprint.PNG"); /* Ruta de la imagen de fondo */
+        background-image: url("bioprint.PNG"); /* Ruta de la imagen de fondo */
         margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
         background-size: cover; /* Cubrir toda la pantalla */
         background-position: center;/* Centrar la imagen */
